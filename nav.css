@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: "Varela Round", sans-serif;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  padding: 28px 0px 0px 0px;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+}
+
+.top_logo {
+  height: 100%;
+  width: 25%;
+}
+
+.top_logo img {
+  transform: translate(0px, -15px);
+  height: 50px;
+  max-width: none;
+  width: auto;
+  display: block;
+}
+.nav_menu a {
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #888;
+  display: inline-block;
+  position: relative;
+}
+.nav_menu a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  top: 30px;
+  left: 0px;
+  color: #e10982;
+  background-color: #e10982;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav_menu a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+  color: #e10982;
+}
+
+.nav_menu .donate {
+  height: 35px;
+  color: white;
+  display: inline-block;
+  background-color: #e10982;
+  border-radius: 25px;
+  padding-top: 6px;
+  margin-top: -4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nav_menu .donate:hover {
+  background-color: #d34c98;
+}
+.social_links {
+    margin-top: 5px;
+  }
+  
+  .social_links a {
+    margin: 0 0 0 30px;
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .social_links a:hover {
+    color: #e10982;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+  }

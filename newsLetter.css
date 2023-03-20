@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+.newsContener {
+  margin-left: -2%;
+  width: 100vw;
+  height: auto;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  row-gap: 5%;
+  column-gap: 5%;
+}
+.innerCart {
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  border-radius: 4px;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08) !important;
+  background-color: #fff;
+  color: #676767;
+  line-height: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgButton {
+  width: 100%;
+  height: 30%;
+  position: relative;
+}
+.imgButton img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.imgButton img:hover {
+  transform: scale(1.2);
+}
+.imgButton button {
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  background-color: transparent;
+  text-transform: uppercase !important;
+  border-radius: 50px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.imgButton button:hover {
+  background-color: #e10982;
+  border: none;
+}
+.imgButton span {
+  align-self: center;
+  text-align: center;
+  color: #000000;
+  font-size: 10px;
+  font-weight: bold;
+  /* padding: 5px 20px 5px 20px; */
+  border-radius: 50px;
+  background-color: #d6bb6a;
+  position: absolute;
+  bottom: -10%;
+  left: 8%;
+  right: 8%;
+}
+.newsContent {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.newsContent span {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.newsContent h3 {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bolder;
+  color: #000000;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+}
+.socialDiv {
+  padding: 10px;
+  border-top: #676767 1px solid;
+  font-size: 12px;
+}
+
+.socialDiv a {
+  margin-left: 10px;
+}

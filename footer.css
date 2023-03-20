@@ -1,0 +1,150 @@
+.footer {
+    background-color: #313030;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.footer_col {
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    height: 80%;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* color: #555555; */
+.content-1 {
+    height: 100%;
+    width: 45%;
+    padding-top: 3%;
+}
+
+.content-1 ul {
+    list-style: none;
+}
+
+.content-1 ul li {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.content-1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.joinus {
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.joinus_list a {
+    color: white;
+    font-size: large;
+    padding: 5%;
+    margin-left: -5%;
+    text-decoration: none;
+}
+
+.content-2 {
+    height: 100%;
+    width: 25%;
+    padding-top: 3%;
+}
+
+.content-2 ul {
+    list-style: none;
+}
+
+.content-2 ul li {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.content-2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-3 {
+    height: 100%;
+    width: 25%;
+    padding-top: 3%;
+}
+
+.content-3 ul {
+    list-style: none;
+}
+
+.content-3 ul li {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.content-3 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-4 {
+    height: 100%;
+    width: 25%;
+    padding-top: 3%;
+}
+
+h6 {
+    margin-top: 4%;
+    font-size: small;
+}
+
+.content-4 form {
+    text-decoration: none;
+    margin-top: 8%;
+}
+
+.footer_form input[type=text] {
+    color: #fff;
+    width: 40%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.footer_form input[type=email] {
+    color: #fff;
+    width: 82%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.footer_form label[for=fname] {
+    font-size: small;
+}
+
+.footer_form label[for=lname] {
+    margin-left: 28%;
+    font-size: small;
+}
+
+.submit {
+    border: none;
+    margin-top: 15%;
+    border-radius: 25px;
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: #e10982;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #d34c98;
+}
